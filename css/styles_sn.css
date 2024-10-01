@@ -1,0 +1,537 @@
+body{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    letter-spacing: 0.08em;
+    word-spacing: 1.4px;
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f1f5;
+}
+
+
+/* HEADER */
+
+header ul{
+    text-align:center;
+    text-justify:inter-word;
+    margin:5%;
+}
+
+header{
+    /*position: fixed;*/
+    background-color: #1f1d1d;
+    width: 100%;
+    min-height: 5vh;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+header section{
+    display: flex;
+}
+header section img{
+    height:40px;
+}
+
+#lines{
+    display: none;
+}
+
+nav label{
+    display: none;
+}
+
+
+
+/*Diseño industrial */
+
+main{
+    /*max-width: 1600px;*/
+    margin: 0 auto;
+}
+
+
+header section{
+    color: #faf5f5;
+    text-align: justify;
+    text-justify:inter-word;
+    margin:4%;
+    font-size: 28px;
+    position: re;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    color: #faf5f5;
+    text-decoration: none;
+    padding-left: 10px;
+    border-left: #d8bcbc;
+}
+
+
+#menu li a:hover{
+    animation: oppacity 1.4s;
+    color: #a0a0ca;
+    text-shadow: 0.1px 0.1px 2px #607fb6;
+}
+
+
+/* MAIN MAIN MAIIN*/
+/* INICIOOOOO*/
+
+
+#inicioo{
+    color: #52527d;
+    text-align: center;
+    margin: 0 auto;
+    height: 700px;
+}
+
+#inicioo h1{
+    padding-top: 4em;
+    font-size: 60px;
+    letter-spacing: 0.17em;
+    text-shadow: 1px 2px 2px #607fb6;
+}
+
+#inicioo p{
+    font-size: 25px;
+    letter-spacing: 0.02em;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+/*SOBRE NOSOTROS*/
+
+#nosotros{
+    background-color: #52527d;
+    height: 1000px;
+    color: #e0e0ef;
+}
+
+#nosotros h1, .historia h1{
+
+    text-align: center;
+    padding-top: 1em;
+    font-size: 60px;
+    letter-spacing: 0.17em;
+}
+
+.grid_2_1{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin-top:5em;
+    height: 150px;
+}
+
+.grid_2_2{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin-top:13em;
+    height: 150px;
+}
+
+.grid_2_1 div{
+    background-color: #e0e0ef;
+    border-radius: 0 100px 100px 0;
+    box-shadow: 0px 2px 10px black;
+
+}
+
+.grid_2_2 div{
+    background-color: #e0e0ef;
+    border-radius: 100px 0 0 100px;
+    box-shadow: 0px 2px 10px black;
+
+}
+
+.grid_2_1 div h1, .grid_2_2 div h1{
+    color: #52527d;
+
+}
+
+.grid_2_1 p, .grid_2_2 p{
+    font-size: 25px;
+    text-align: justify;
+    padding: 2em;
+}
+
+
+
+/* HISTORIA HISTORIA*/
+
+
+.historia{
+    box-shadow:inset 0px 2px 10px black;
+    background-color: #52527d;
+    height: 840px;
+    color: #e0e0ef;
+    
+}
+
+
+
+.historia div{
+    height: 670px;
+    display: grid;
+    grid-template-columns: 3.5fr 2fr;
+    background-color: #a0a0ca;
+}
+
+
+.historia div img{
+    
+    height: 670px;
+    width: 80%;
+}
+
+.historia div p{
+    padding-top: 2em;
+    margin-left: -100px;
+    padding-right: 3em;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+/* CLIENTEEEES*/
+
+.clientes h1{
+    margin: auto;
+    padding: 10px 0px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: #f7f7f8;
+    background-color: #a0a0ca;
+    width: 30%;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 0.17em;
+    
+}
+
+.clientes {
+    margin: auto;
+    
+    margin-top: 2%;
+    text-align: center;
+    font-size: 30px;
+    color: #a0a0ca;
+}
+
+.p-white{
+    background-color: #a0a0ca;
+    padding: 0.7em;
+    color: #e0e0ef;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    height: 120px;
+    background-color: #1f1d1d;
+}
+
+.footer-3{
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    color: #e0e0ef;
+    
+}
+
+.footer-3 div{
+    padding-left: 1em;
+    height: 120px;
+    border-right: 1px solid #e0e0ef; 
+}
+
+.flex{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-3 p{
+    display: flex;
+}
+
+.dfi{
+    
+    margin-top: -17px;
+    letter-spacing: 0.17em;
+}
+
+i{
+    margin: 0.4px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+/* animaciones */
+
+
+
+@keyframes oppacity{
+    0%{
+        opacity: 50%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes first-image-in{
+    0%{
+        border-radius: 40%;
+    }
+
+    100%{
+        border-radius: 50%;
+    }
+}
+
+@keyframes first-image-out{
+    0%{
+        border-radius: 50%;
+    }
+
+    100%{
+        border-radius: 40%;
+    }
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1034px) {
+
+
+    
+    /* header */
+    body{
+        list-style: none;
+        margin: 0%;
+        padding: 0%;
+        letter-spacing: 0.08em;
+        word-spacing: 1.4px;
+        font-family: 'Rubik', sans-serif;
+        background-color: #e0e0ef;
+        height: auto;
+        min-width: 750px;
+    }
+    
+    
+        header{
+            background-color: #1f1d1d;
+            width: 100%;
+            min-height: 5vh;
+            display: inline-block;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+    
+        
+        nav label{
+            display: inline;
+            color: #e0e0ef;
+            margin-left: 70%;
+        }
+        
+        #lines{
+        display: none;
+        }
+    
+        #menu{
+            display: none;
+            text-align: center;
+            font-size: 30px;
+            background-color: #1f1d1d;
+        }
+    
+        #lines:checked ~ #menu{
+            display: flow;
+        }
+
+
+
+/*SOBRE NOSOTROS*/
+
+#nosotros{
+    background-color: #52527d;
+    height: 1100px;
+    color: #e0e0ef;
+}
+
+#nosotros h1, .historia h1{
+
+    text-align: center;
+    padding-top: 1em;
+    font-size: 60px;
+    letter-spacing: 0.17em;
+}
+
+.grid_2_1{
+    display: grid;
+    grid-template-rows: 4fr;
+    margin-top:1em;
+    height: 250px;
+}
+
+.grid_2_2{
+    display: grid;
+    grid-template-rows: 4fr;
+    height: 250px;
+}
+
+.grid_2_1 div{
+
+    background-color: #e0e0ef;
+    border-radius: 0 100px 100px 0;
+    margin-top: 10px;
+    box-shadow: 0px 2px 10px black;
+    height: 400px;
+
+}
+
+.grid_2_2 div{
+    background-color: #e0e0ef;
+    border-radius: 100px 0 0 100px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 10px black;
+    height: 400px;
+
+}
+
+.grid_2_1 div h1, .grid_2_2 div h1{
+    padding-top: -5em;
+    color: #52527d;
+
+}
+
+.grid_2_1 p{
+    font-size: 25px;
+    text-align: justify;
+    padding: 1em;
+}
+
+.grid_2_2 p{
+    font-size: 25px;
+    text-align: justify;
+    padding-top: 2em;
+}
+
+
+
+
+
+
+/* HISTORIA HISTORIA*/
+
+
+.historia{
+    box-shadow:inset 0px 2px 10px black;
+    background-color: #52527d;
+    height: 840px;
+    color: #e0e0ef;
+    
+}
+
+
+
+.historia div{
+    height: 670px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    background-color: #a0a0ca;
+}
+
+
+.historia div img{
+    
+    height: 670px;
+    width: 80%;
+}
+
+
+.historia div p{
+    padding-top: 0.3em;
+    padding-right: 1em;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.clientes h1{
+    margin: auto;
+    padding: 10px 0px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: #f7f7f8;
+    background-color: #a0a0ca;
+    width: 50%;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 0.17em;
+    
+}
+
+        
+
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: #1f1d1d;
+}
+
+
+.footer-3{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    color: #e0e0ef;
+    
+}
+
+.footer-3 div{
+    padding-left: 1em;
+    height: 120px;
+    border-right: 1px solid #e0e0ef; 
+}
+
+.flex{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-3 p{
+    display: flex;
+}
+
+.dfi{
+    
+    margin-top: -17px;
+    letter-spacing: 0.17em;
+}
+
+i{
+    margin: 0.4px;
+    font-size: 30px;
+}
+
+
+
+
+    }
